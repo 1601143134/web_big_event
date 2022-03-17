@@ -35,7 +35,7 @@ $(function () {
         var data = {username:$('#form-reg [name=username]').val(),
         password:$('#form-reg [name=password]').val()}
         
-        //阻止默认的提交行为
+        //★ 阻止默认的提交行为
         e.preventDefault()
         // console.log(data);
         $.post('/api/reguser',
